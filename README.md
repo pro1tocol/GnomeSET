@@ -7,7 +7,7 @@
 You can follow the desktop environment settings
 
     cp ~/.config/monitors.xml /var/lib/gdm/.config/
-theme and background setting tool `[gdm-tools]()`
+theme and background setting tool [gdm-tools](https://github.com/realmazharhussain/gdm-tools)
 
 setting background
 
