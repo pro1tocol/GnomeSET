@@ -2,6 +2,12 @@
 
 -----------------
 
+### Turn off auto-rotate
+
+    apt purge --remove iio-sensor-proxy
+
+-----------------
+
 ### GDM Login setting
 
 You can follow the desktop environment settings
@@ -39,3 +45,4 @@ open extension-manager
     XMODIFIERS=@im=fcitx
     SDL_IM_MODULE=fcitx
     DefaultIMModule=fcitx
+
