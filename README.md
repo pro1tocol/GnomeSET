@@ -16,3 +16,20 @@ setting theme
 
     set-gdm-theme -l
     set-gdm-theme -s orchis
+### Shutdowm On-screen keyboard
+
+install tool
+
+    gnome-shell-extension-manager
+open extension-manager
+
+    caribou 36
+### Global input method
+
+    vim /etc/environment
+    
+    GTK_IM_MODULE=fcitx
+    QT_IM_MODULE=fcitx
+    XMODIFIERS=@im=fcitx
+    SDL_IM_MODULE=fcitx
+    DefaultIMModule=fcitx
