@@ -16,6 +16,9 @@ setting theme
 
     set-gdm-theme -l
     set-gdm-theme -s orchis
+    
+-----------------
+
 ### Shutdowm On-screen keyboard
 
 install tool
@@ -24,6 +27,9 @@ install tool
 open extension-manager
 
     caribou 36
+    
+-----------------
+
 ### Global input method
 
     vim /etc/environment
