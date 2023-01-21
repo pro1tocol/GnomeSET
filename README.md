@@ -22,6 +22,40 @@ setting theme
 
     set-gdm-theme -l
     set-gdm-theme -s orchis
+
+-----------------
+
+### Global input method
+
+    vim /etc/environment
+    
+    GTK_IM_MODULE=fcitx
+    QT_IM_MODULE=fcitx
+    XMODIFIERS=@im=fcitx
+    SDL_IM_MODULE=fcitx
+    DefaultIMModule=fcitx
+        
+-----------------
+
+#### Non-essential tool
+
+    epiphany-browser
+    gnome-user-docs
+    yelp
+    totem
+    gnome-maps
+    gnome-music
+    gnome-text-editor
+    gnome-weather
+    gnome-contacts
+    gnome-photos
+    gnome-books
+#### Optional tool
+
+    gnome-tweaks
+    gnome-shell-extensions
+    gnome-shell-extension-dash-to-dock
+    juno-theme-git
     
 -----------------
 
@@ -34,15 +68,3 @@ open extension-manager
 
     caribou 36
     
------------------
-
-### Global input method
-
-    vim /etc/environment
-    
-    GTK_IM_MODULE=fcitx
-    QT_IM_MODULE=fcitx
-    XMODIFIERS=@im=fcitx
-    SDL_IM_MODULE=fcitx
-    DefaultIMModule=fcitx
-
