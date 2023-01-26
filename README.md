@@ -56,7 +56,20 @@ setting theme
     gnome-shell-extensions
     gnome-shell-extension-dash-to-dock
     juno-theme-git
+    
     guake
+    cp /usr/share/applications/guake.desktop .config/autostart
+    GNOME Settings - > Keyboard -> Customize shortcuts
+    Guake
+    guake-toggle
+    F12
+    
+    cmatrix
+    gpu-viewer
+    cpu-x
+    
+    figlet
+    echo "Fuck You" | figlet
 #### Themes
 
 [Orchis](https://github.com/vinceliuice/Orchis-theme) | [Yaru-Colors](https://github.com/Jannomag/Yaru-Colors) | [Sweet](https://github.com/EliverLara/Sweet) | [Gdm-tools](https://github.com/realmazharhussain/gdm-tools) | [Ccat](https://github.com/owenthereal/ccat)
